@@ -1,0 +1,455 @@
+/* General Style */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Georgia', serif;
+}
+
+body{
+    background:#fff8f8;
+    color:#b6443c;
+}
+
+
+/* Header */
+
+header{
+    background:#b8860b;
+    padding:20px;
+    text-align:center;
+    color:white;
+}
+
+header h1{
+    font-size:35px;
+    margin-bottom:15px;
+}
+
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+
+nav a:hover{
+    color:#ffe4e1;
+}
+
+
+/* Hero Section */
+
+.hero{
+
+    height:500px;
+    background-image:
+    linear-gradient(
+    rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)
+    ),
+    url("wedding\ hall.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+
+.hero-text{
+    color:white;
+    max-width:700px;
+}
+
+
+.hero-text h2{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+
+.hero-text p{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+
+/* Button */
+
+.btn{
+
+    background:#b8860b;
+    color:white;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+
+}
+
+
+.btn:hover{
+
+    background:#8b6508;
+
+}
+
+
+/* Services */
+
+.services{
+
+    padding:50px;
+    text-align:center;
+
+}
+
+
+.services h2,
+.choose h2{
+
+    font-size:35px;
+    margin-bottom:30px;
+    color:#b8860b;
+
+}
+
+
+.cards{
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+
+}
+
+
+.card{
+
+    background:white;
+    width:300px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.card h3{
+
+    color:#b8860b;
+    margin-bottom:15px;
+    font-size:25px;
+
+}
+
+
+.card p{
+
+    line-height:1.6;
+
+}
+
+
+/* Choose Section */
+
+.choose{
+
+    background:#fce4ec;
+    padding:50px;
+    text-align:center;
+    font-size:20px;
+    line-height:2;
+
+}
+
+
+/* Footer */
+
+footer{
+
+    background:#b8860b;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+
+}
+
+
+/* Gallery Page */
+
+.gallery{
+
+    padding:40px;
+    text-align:center;
+
+}
+
+
+.gallery img{
+
+    width:300px;
+    height:220px;
+    object-fit:cover;
+    margin:15px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgb(125, 118, 125);
+
+}
+
+
+/* Forms */
+
+.form-container{
+
+    width:70%;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+input, select, textarea{
+
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius:10px;
+
+}
+
+
+button{
+
+    background:#b8860b;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:17px;
+
+}
+
+
+button:hover{
+
+    background:#8b6508;
+
+}
+
+
+/* Table */
+
+table{
+
+    width:80%;
+    margin:30px auto;
+    border-collapse:collapse;
+    background:white;
+
+}
+
+
+th{
+
+    background:#b8860b;
+    color:white;
+    padding:15px;
+
+}
+
+
+td{
+
+    padding:15px;
+    text-align:center;
+    border:1px solid #ddd;
+
+}
+/* New About Page Design */
+
+.about{
+    padding:60px 10%;
+    text-align:center;
+    background:#fff8f8;
+}
+
+
+.about h2{
+    color:#b8860b;
+    font-size:38px;
+    margin-bottom:25px;
+}
+
+
+.about p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+
+/* About Cards */
+
+.about .cards{
+    margin-top:40px;
+}
+
+
+.about .card{
+
+    background:white;
+    border-top:5px solid #b8860b;
+    padding:35px;
+    transition:0.4s;
+
+}
+
+
+.about .card:hover{
+
+    transform:translateY(-12px);
+    box-shadow:0 10px 25px rgba(184,134,11,0.3);
+
+}
+
+
+
+.about .card h3{
+
+    color:#b8860b;
+    font-size:26px;
+
+}
+
+
+
+
+/* Improved Choose Section */
+
+.choose{
+
+    background:#fce4ec;
+    padding:60px 10%;
+    text-align:center;
+
+}
+
+
+.choose p{
+
+    font-size:20px;
+    line-height:2;
+
+}
+
+
+
+/* New Help Page */
+
+.help-box{
+
+    width:85%;
+    margin:50px auto;
+    padding:50px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    text-align:center;
+
+}
+
+
+.help-box h2{
+
+    color:#bf9a15;
+    font-size:38px;
+    margin-bottom:20px;
+
+}
+
+
+.help-box .cards{
+
+    margin-top:40px;
+
+}
+
+
+.help-box .card{
+
+    border-bottom:4px solid #b8860b;
+
+}
+
+
+.help-box .card h3{
+
+    color:#b8860b;
+
+}
+
+
+.help-box .btn{
+
+    display:inline-block;
+    margin-top:20px;
+
+}
+
+
+/* Contact Section */
+
+.about a.btn{
+
+    display:inline-block;
+    margin-top:20px;
+
+}
+
+
+
+/* Mobile Design */
+
+@media(max-width:768px){
+
+    nav a{
+
+        display:block;
+        margin:10px;
+
+    }
+
+
+    .hero-text h2{
+
+        font-size:35px;
+
+    }
+
+
+    .help-box,
+    .form-container{
+
+        width:90%;
+
+    }
+
+}
+
